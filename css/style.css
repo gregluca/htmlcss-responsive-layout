@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 img {
-    max-width: 100px;
-}
-.big-box {
-    height: 100vh;
+    max-width: 100%;
 }
 .header {
     height: 100px;
@@ -20,37 +17,38 @@ img {
     width: 100%;
 }
 .row {
-    margin-top: 40px;
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: space-between;
 }
 .col {
+    border: 1px solid black;
     width: 100%;
-    height: 400px;
-    background-color: lightblue;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #b5ddff;
     border-radius: 20px;
     margin: 20px;
 }
 .planning {
-    background-color:#9792e4 ;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
 }
 .box-left {
-    height: 400px;
 }
 .box-right {
-    height: 600px;
     background-color: white;
     border-radius: 20px;
+    text-align: center;
 }
 #expert .col {
     background-color:#9792e4;
     color: white;
+}
+.partners .row {
+    flex-direction: column;
 }
 .benefit {
     background-color:#9792e4;
@@ -72,4 +70,11 @@ img {
 .footer {
     background-color: #333333;
     height: 150px;
+}
+.bg-box {
+    background-color:#9792e4;
+}
+.small {
+    width: 80%;
+    margin: 0 auto;
 }

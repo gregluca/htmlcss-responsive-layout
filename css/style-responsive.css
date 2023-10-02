@@ -1,0 +1,25 @@
+@media screen and (max-width: 780px){
+    .small {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 780px) {
+    .col {
+        border: 1px solid black;
+        width: calc(100%  / 3 - 40px);
+    }
+    #working .col {
+        width: calc(100% / 2 - 40px);
+    }
+    .small {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .small {
+        width: 80%;
+    }
+    #working .col {
+        width: calc(100% / 3 - 40px);
+    }
+}
