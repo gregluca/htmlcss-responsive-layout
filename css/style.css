@@ -6,6 +6,14 @@
 img {
     max-width: 100%;
 }
+.bg-box {
+    background-color:#9792e4;
+    min-height: 700px;
+}
+.small {
+    width: 80%;
+    margin: 0 auto;
+}
 .header {
     height: 100px;
     background-color: rgb(37 133 253);
@@ -22,36 +30,53 @@ img {
     justify-content: space-between;
 }
 .col {
+    font-family: 'PT Sans', sans-serif;
     border: 1px solid black;
     width: 100%;
-    height: 600px;
+    height: 300px;
     margin: 0 auto;
     background-color: #b5ddff;
     border-radius: 20px;
     margin: 20px;
 }
+
+.btn {
+    background-color: rgb(37 133 253) ;
+    width: 150px;
+    border-radius: 10px;
+    padding: .5rem 2px;
+    border: none;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
 .planning {
+    font-family: 'PT Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     padding: 20px;
 }
+.about {
+    display: flex;
+    width: 100%;
+}
 .box-left {
+    color: white;
 }
 .box-right {
     background-color: white;
     border-radius: 20px;
     text-align: center;
+    border: 1px solid black;
 }
 #expert .col {
-    background-color:#9792e4;
     color: white;
 }
 .partners .row {
     flex-direction: column;
 }
 .benefit {
-    background-color:#9792e4;
 }
 #working .col {
     background-color: white;
@@ -64,17 +89,9 @@ img {
     border: 1px solid black;
 }
 .free {
-    background-color: #9792e4;
     height: 300px;
 }
 .footer {
     background-color: #333333;
     height: 150px;
-}
-.bg-box {
-    background-color:#9792e4;
-}
-.small {
-    width: 80%;
-    margin: 0 auto;
 }
