@@ -48,3 +48,28 @@ img {
     background-color: white;
     border-radius: 20px;
 }
+#expert .col {
+    background-color:#9792e4;
+    color: white;
+}
+.benefit {
+    background-color:#9792e4;
+}
+#working .col {
+    background-color: white;
+    color:#9792e4  ;
+}
+.about .box-left {
+    border: 1px solid black;
+}
+.about .box-right {
+    border: 1px solid black;
+}
+.free {
+    background-color: #9792e4;
+    height: 300px;
+}
+.footer {
+    background-color: #333333;
+    height: 150px;
+}
